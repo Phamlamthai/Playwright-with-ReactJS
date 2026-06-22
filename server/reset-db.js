@@ -1,0 +1,23 @@
+// Script này reset db.json về trạng thái ban đầu
+// Dùng trước khi chạy test: node server/reset-db.js
+// Hoặc trong beforeAll của Playwright
+
+import { writeFileSync } from 'fs'
+
+const initialData = {
+  users: [
+    { id: 1, name: 'Admin User', email: 'admin@test.com', password: 'admin123', role: 'admin' },
+    { id: 2, name: 'Member User', email: 'member@test.com', password: 'member123', role: 'member' },
+  ],
+  projects: [
+    { id: 1, name: 'Project Alpha', description: 'First project for testing', ownerId: 1, createdAt: '2024-01-01' },
+  ],
+  tasks: [
+    { id: 1, title: 'Setup environment', description: 'Install all dependencies', status: 'done', priority: 'high', projectId: 1, assigneeId: 1, dueDate: '2024-12-31', attachment: null },
+    { id: 2, title: 'Write unit tests', description: 'Cover core business logic', status: 'in-progress', priority: 'medium', projectId: 1, assigneeId: 2, dueDate: '2024-12-31', attachment: null },
+    { id: 3, title: 'Deploy to staging', description: 'Push to staging environment', status: 'todo', priority: 'low', projectId: 1, assigneeId: 1, dueDate: '2025-01-15', attachment: null },
+  ],
+}
+
+writeFileSync('./server/db.json', JSON.stringify(initialData, null, 2))
+console.log('✓ DB reset to initial state')
