@@ -27,6 +27,13 @@
       "password": "test12345",
       "role": "member",
       "id": "2GYT1knd2r8"
+    },
+    {
+      "name": "Phạm Lâm Thái",
+      "email": "ThaiPL@fpt.com",
+      "password": "thai123",
+      "role": "member",
+      "id": "YWtg_D4Kut0"
     }
   ],
   "projects": [
@@ -36,6 +43,27 @@
       "description": "First project for testing",
       "ownerId": 1,
       "createdAt": "2024-01-01"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-24",
+      "id": "1mMMPlfFRn0"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-24",
+      "id": "7N5TzybN5fo"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-24",
+      "id": "oQuk9Mmqe00"
     }
   ],
   "tasks": [
@@ -71,6 +99,17 @@
       "assigneeId": 1,
       "dueDate": "2025-01-15",
       "attachment": null
+    },
+    {
+      "title": "Write test detail",
+      "description": "testing for PW",
+      "status": "in-progress",
+      "priority": "medium",
+      "projectId": 1,
+      "assigneeId": "YWtg_D4Kut0",
+      "dueDate": "2026-06-27",
+      "attachment": "5Z9A7239.JPG",
+      "id": "IYtGhiECdOc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
