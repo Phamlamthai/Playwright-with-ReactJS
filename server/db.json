@@ -39,8 +39,8 @@
   "projects": [
     {
       "id": "1",
-      "name": "Project Alpha",
-      "description": "First project for testing",
+      "name": "Project Alpha Updated",
+      "description": "First project for testing updated",
       "ownerId": 1,
       "createdAt": "2024-01-01"
     },
@@ -64,6 +64,62 @@
       "ownerId": "1",
       "createdAt": "2026-06-24",
       "id": "oQuk9Mmqe00"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "q6-iUXYWVgQ"
+    },
+    {
+      "name": "Testing delete project",
+      "description": "AAAAAHHHBBBB",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "OrSjKvyHp9g"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "FRhOBOBzrQk"
+    },
+    {
+      "name": "Testing delete project",
+      "description": "AAAAAHHHBBBB",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "Jqd_AQg6B1Y"
+    },
+    {
+      "name": "Testing delete project",
+      "description": "AAAAAHHHBBBB",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "k9WSdeozAW8"
+    },
+    {
+      "name": "ReactJS",
+      "description": "Learning it now",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "beSdPE32dBQ"
+    },
+    {
+      "name": "Testing delete project",
+      "description": "AAAAAHHHBBBB",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "z2Pbyxf5UKk"
+    },
+    {
+      "name": "Testing delete project",
+      "description": "AAAAAHHHBBBB",
+      "ownerId": "1",
+      "createdAt": "2026-06-25",
+      "id": "k0x8qiQ0ufw"
     }
   ],
   "tasks": [
@@ -99,17 +155,6 @@
       "assigneeId": 1,
       "dueDate": "2025-01-15",
       "attachment": null
-    },
-    {
-      "title": "Write test detail",
-      "description": "testing for PW",
-      "status": "in-progress",
-      "priority": "medium",
-      "projectId": 1,
-      "assigneeId": "YWtg_D4Kut0",
-      "dueDate": "2026-06-27",
-      "attachment": "5Z9A7239.JPG",
-      "id": "IYtGhiECdOc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
