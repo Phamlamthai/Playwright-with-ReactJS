@@ -24,7 +24,7 @@ export default function NewTaskPage() {
 
   useEffect(() => {
     if (!user) { navigate('/login'); return }
-    projectApi.getById(Number(id)).then(setProject)
+    projectApi.getById(id).then(setProject)
   }, [id])
 
   const handleStep1 = (e: SubmitEvent<HTMLFormElement>) => {

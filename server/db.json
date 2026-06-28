@@ -13,113 +13,15 @@
       "email": "member@test.com",
       "password": "member123",
       "role": "member"
-    },
-    {
-      "name": "Test User",
-      "email": "test_1782121168836@test.com",
-      "password": "test12345",
-      "role": "member",
-      "id": "potXJ3nzB-k"
-    },
-    {
-      "name": "Test User",
-      "email": "test_1782121449155@test.com",
-      "password": "test12345",
-      "role": "member",
-      "id": "2GYT1knd2r8"
-    },
-    {
-      "name": "Phạm Lâm Thái",
-      "email": "ThaiPL@fpt.com",
-      "password": "thai123",
-      "role": "member",
-      "id": "YWtg_D4Kut0"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "name": "Project Alpha Updated",
-      "description": "First project for testing updated",
+      "name": "Project Alpha",
+      "description": "First project for testing",
       "ownerId": 1,
       "createdAt": "2024-01-01"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-24",
-      "id": "1mMMPlfFRn0"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-24",
-      "id": "7N5TzybN5fo"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-24",
-      "id": "oQuk9Mmqe00"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "q6-iUXYWVgQ"
-    },
-    {
-      "name": "Testing delete project",
-      "description": "AAAAAHHHBBBB",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "OrSjKvyHp9g"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "FRhOBOBzrQk"
-    },
-    {
-      "name": "Testing delete project",
-      "description": "AAAAAHHHBBBB",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "Jqd_AQg6B1Y"
-    },
-    {
-      "name": "Testing delete project",
-      "description": "AAAAAHHHBBBB",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "k9WSdeozAW8"
-    },
-    {
-      "name": "ReactJS",
-      "description": "Learning it now",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "beSdPE32dBQ"
-    },
-    {
-      "name": "Testing delete project",
-      "description": "AAAAAHHHBBBB",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "z2Pbyxf5UKk"
-    },
-    {
-      "name": "Testing delete project",
-      "description": "AAAAAHHHBBBB",
-      "ownerId": "1",
-      "createdAt": "2026-06-25",
-      "id": "k0x8qiQ0ufw"
     }
   ],
   "tasks": [
@@ -155,6 +57,17 @@
       "assigneeId": 1,
       "dueDate": "2025-01-15",
       "attachment": null
+    },
+    {
+      "title": "Test create new task",
+      "description": "This is a test description",
+      "status": "todo",
+      "priority": "medium",
+      "projectId": 1,
+      "assigneeId": "1",
+      "dueDate": "2026-06-28",
+      "attachment": null,
+      "id": "ntpUAJbrlhQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

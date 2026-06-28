@@ -10,13 +10,12 @@ test.describe("Login Page", () => {
     await expect(page).toHaveURL("/dashboard");
   });
 
-  // test("Login successfully with admin members", async ({ page }) => {
-  //   const loginPage = new LoginPage(page);
-  //   //step1: open login page
-  //   await loginPage.goto();
-  //   await loginPage.loginMembers();
-  //   await expect(page).toHaveURL("/dashboard");
-  // });
+  test("Login successfully with admin members", async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.goto();
+    await loginPage.loginMembers();
+    await expect(page).toHaveURL("/dashboard");
+  });
   test("Login unsuccessfully with password incorrectly", async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();

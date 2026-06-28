@@ -39,9 +39,11 @@ export class LoginPage {
   //login with role admin
   async loginAdmin() {
     await this.login("admin@test.com", "admin123");
+    await this.page.waitForURL("/dashboard");
   }
   //login with role members
   async loginMembers() {
     await this.login("member@test.com", "member123");
+    await this.page.waitForURL("/dashboard");
   }
 }
