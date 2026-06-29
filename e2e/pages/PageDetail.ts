@@ -52,6 +52,10 @@ export class PageDetail {
     return this.page.getByTestId(`task-status-${id}`);
   }
 
+  deleteBtnTask(id: string) {
+    return this.taskItem(id).getByRole("button", { name: /Delete/i });
+  }
+
   async goto(id: string) {
     await this.page.goto(`/projects/${id}`);
   }
