@@ -56,6 +56,10 @@ export class PageDetail {
     return this.taskItem(id).getByRole("button", { name: /Delete/i });
   }
 
+  attachVisible(id: string) {
+    return this.page.getByTestId(`task-attachment-${id}`);
+  }
+
   async goto(id: string) {
     await this.page.goto(`/projects/${id}`);
   }
